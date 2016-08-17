@@ -7,10 +7,10 @@ Specs:
   2. The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
     * Input example: 3
     * Output example: 3
-
+<!--
   3. The program adds "ay" to single-letter words beginning with a vowel.
     * Input example: I
-    * Output example: Iay
+    * Output example: Iay -->
 
   4. For words beginning with a single consonant, move the first consonant to the end and add "ay".
     * Input example: Horse
