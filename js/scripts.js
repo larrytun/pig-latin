@@ -2,16 +2,17 @@
 var vowels = ["a","e","i","o","u"];
 
 var translation = function(userInput) {
+  debugger;
   if (isNaN(userInput)) {
-    for (i = 0; !(vowels).includes(userInput[0]); i += 1) {
+    for (i = 0; !(vowels).includes(userInput[0]);) {
       if (userInput[0] === "q" && userInput [0+1] === "u") {
         userInput.push(userInput[0], userInput[1]);
         userInput.splice(0,(0+2));
       } else {
       userInput.push(userInput[0]);
+      userInput.splice(0,(1));
       }
     }
-    console.log(userInput[i]);
     userInput.push("a","y");
     return userInput.join("");
   }
