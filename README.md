@@ -36,6 +36,8 @@ Specs:
     * Input example: squeal
     * Output example: ealsquay
 
+  11.
+
   10. For multiple words apply all of these rules to each word and keep the spaces.
     * Input example: this is a sentence
     * Output example: isthay isay aay entencesay
